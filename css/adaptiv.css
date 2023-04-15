@@ -457,6 +457,26 @@
   .main-section .content .right-container img {
     width: 320px;
   }
+  .main-section .content .right-container .items-container ul {
+    gap: 5px;
+  }
+  .main-section .content .right-container .items-container ul li {
+    padding: 10px;
+    border-radius: 18.1957px;
+    gap: 5px;
+  }
+  .main-section .content .right-container .items-container ul li h5 {
+    font-size: 12px;
+    line-height: 100%;
+  }
+  .main-section .content .right-container .items-container ul li p {
+    font-size: 17px;
+    line-height: 17px;
+  }
+  .main-section .content .right-container .items-container ul li p span {
+    font-size: 24px;
+    line-height: 24px;
+  }
   .bistroe_odobrenie .item {
     padding: 20px;
   }
