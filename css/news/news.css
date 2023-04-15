@@ -170,9 +170,6 @@
   align-items: center;
   cursor: pointer;
   opacity: 0.9;
-  -webkit-transition: all 0.21s ease-in;
-  -moz-transition: all 0.21s ease-in;
-  -ms-transition: all 0.21s ease-in;
   transition: all 0.21s ease-in;
 }
 
@@ -182,14 +179,9 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-transition: all 0.21s ease-in;
-  -moz-transition: all 0.21s ease-in;
-  -ms-transition: all 0.21s ease-in;
   transition: all 0.21s ease-in;
 }
 
 .slider-previous {
   transform: rotate(180deg);
-}
-
-/*# sourceMappingURL=news.css.map */
+}/*# sourceMappingURL=news.css.map */

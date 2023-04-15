@@ -26,7 +26,8 @@
   width: 669px;
   height: 248px;
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 40px;
 }
@@ -109,7 +110,8 @@
   padding: 29px 32px;
   color: white;
   background: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 20px;
 }
@@ -124,7 +126,8 @@
   width: 70px;
   height: 70px;
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 20px;
 }
@@ -169,15 +172,6 @@
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -188,6 +182,4 @@
 }
 .dots {
   display: none;
-}
-
-/*# sourceMappingURL=slider.css.map */
+}/*# sourceMappingURL=slider.css.map */

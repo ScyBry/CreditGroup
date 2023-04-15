@@ -797,6 +797,15 @@
   .table .block .items .item {
     width: 148px;
   }
+  table tr th {
+    font-size: 14px;
+    line-height: 150%;
+    padding: 14px 28px;
+  }
+  table tr td {
+    font-size: 14px;
+    line-height: 150%;
+  }
   .list .block .block_item {
     padding: 30px 20px;
     flex-direction: column;
@@ -946,7 +955,8 @@
     width: 70px;
     height: 70px;
     background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 20px;
   }
@@ -1068,6 +1078,4 @@
 }
 .phoneInput {
   font-size: 20px;
-}
-
-/*# sourceMappingURL=adaptiv.css.map */
+}/*# sourceMappingURL=adaptiv.css.map */

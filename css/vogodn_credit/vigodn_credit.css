@@ -260,7 +260,8 @@
 .online_oformlenie .block {
   padding: 40px 60px;
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 50px;
 }
@@ -388,6 +389,9 @@
   font-feature-settings: "pnum" on, "lnum" on;
   /* black */
   color: #2a2e33;
+}
+.online_oformlenie .block .wrapper_inputs .left_content .item .input input::-moz-placeholder {
+  color: #c3bcd1;
 }
 .online_oformlenie .block .wrapper_inputs .left_content .item .input input::placeholder {
   color: #c3bcd1;
@@ -583,7 +587,8 @@
   width: 260px;
   height: 231px;
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -707,6 +712,4 @@
 
 .slider_2 .wrapper_dots_btn {
   display: none;
-}
-
-/*# sourceMappingURL=vigodn_credit.css.map */
+}/*# sourceMappingURL=vigodn_credit.css.map */

@@ -63,6 +63,13 @@ datalist {
   outline: none;
   background: transparent;
 }
+.input input::-moz-placeholder {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+}
 .input input::placeholder {
   font-family: "Gilroy";
   font-style: normal;
@@ -328,7 +335,8 @@ datalist {
 .secondary_menu .wrapper {
   padding: 20px 40px;
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 20px;
   margin-top: 19px;
@@ -412,6 +420,13 @@ datalist {
   outline: none;
   background: transparent;
 }
+.section_1 .wrapper .info .form .input input::-moz-placeholder {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+}
 .section_1 .wrapper .info .form .input input::placeholder {
   font-family: "Gilroy";
   font-style: normal;
@@ -454,7 +469,8 @@ datalist {
 .section_1 .benefits {
   padding: 40px 95px;
   background: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
   border-radius: 40px;
   display: flex;
   align-items: center;
@@ -569,7 +585,8 @@ datalist {
   position: relative;
   margin-top: 40px;
   background: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 50px;
   padding: 65px 50px;
@@ -597,7 +614,8 @@ datalist {
   z-index: 20;
   width: 100px;
   opacity: 1;
-  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
 }
 .section_3 .steps .item .info {
   display: flex;
@@ -635,7 +653,8 @@ datalist {
 .section_4 .calculator {
   padding: 40px 60px;
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   border-radius: 50px;
 }
 .section_4 .calculator .wrapper_items {
@@ -720,7 +739,6 @@ datalist {
   /*     background: #1B2FB2; */
   background: transparent;
   outline: none;
-  -webkit-transition: 0.2s;
   transition: opacity 0.2s;
   margin: 12px 0px 5px 0px;
   cursor: pointer;
@@ -739,7 +757,8 @@ datalist {
   opacity: 1;
 }
 .section_4 .calculator .wrapper_items .item .wrapper .slider_2::-webkit-slider-thumb {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   width: 30px;
   height: 30px;
   border-radius: 100%;
@@ -937,7 +956,6 @@ datalist {
   height: 3px;
   /*     background: #1B2FB2; */
   background-color: transparent;
-  -webkit-transition: 0.2s;
   transition: opacity 0.2s;
   margin: 12px 0px 5px 0px;
   cursor: pointer;
@@ -956,7 +974,8 @@ datalist {
   opacity: 1;
 }
 .section_4 .wrapper_1 .slider_1::-webkit-slider-thumb {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   width: 30px;
   height: 30px;
   border-radius: 100%;
@@ -1007,7 +1026,8 @@ datalist {
 }
 .section_6 .about_us .items .item_txt {
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 20px;
   display: flex;
@@ -1029,7 +1049,8 @@ datalist {
 }
 .section_6 .about_us .items .item {
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 20px;
   display: flex;
@@ -1193,7 +1214,8 @@ datalist {
   font-feature-settings: "pnum" on, "lnum" on;
   padding: 30px;
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   border-radius: 30px;
   max-width: 360px;
   min-height: 230px;
@@ -1354,7 +1376,8 @@ datalist {
   width: 500px;
   padding: 20px 30px;
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 20px 20px 0px 20px;
   font-family: "Raleway";
@@ -1584,7 +1607,8 @@ datalist {
   padding: 20px;
   border-radius: 20px 20px 0px 20px;
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
 }
 .section_message_mobile .item_me span {
   font-family: "Raleway";
@@ -1607,7 +1631,8 @@ datalist {
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 20px;
   width: 70px;
@@ -1652,14 +1677,6 @@ datalist {
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
-}
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
 }
 @keyframes fade {
   from {
@@ -1931,6 +1948,4 @@ datalist {
   background: linear-gradient(90deg, #EBDFE7 0%, #EBEBEF 100%);
   mix-blend-mode: normal;
   border-radius: 20px;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
